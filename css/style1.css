@@ -1,0 +1,43 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FF9494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-family: "Teachers", sans-serif;
+    font-weight: 700;
+    font-size: auto;
+
+}
+
+#app {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h1{
+   font-size: 30px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form controls horizontally */
+    justify-content: center; /* Center the form controls vertically */
+    width: 50%;
+}
+
+.input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
